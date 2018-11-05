@@ -9,7 +9,7 @@ capabilities.
 ### iOS mobile web automation
 
 Appium can automate the Safari browser on real and simulated iOS devices. It is
-accessed by setting the `browserName` [desired capabilty](/docs/en/writing-running-appium/caps.md)
+accessed by setting the `browserName` [desired capability](/docs/en/writing-running-appium/caps.md)
 to `"Safari"` while leaving the `app` capability empty.
 
 You **must** run Safari on the device before attempting to use Appium, in order
@@ -100,7 +100,7 @@ Before you can run your tests against Safari on a real device you will need to:
 
 ### Running your test
 
-To configure you test to run against safari simply set the `"browserName"` to be
+To configure your test to run against Safari simply set the `"browserName"` to be
 `"Safari"`.
 
 
@@ -171,7 +171,7 @@ class ContextTests extends PHPUnit_Extensions_AppiumTestCase
 
 ### Android mobile web automation
 
-Appium supports automating the Chrome browser both real and emulated Android
+Appium supports automating the Chrome browser on both real and emulated Android
 devices.
 
 Pre-requisites:
@@ -182,7 +182,7 @@ Pre-requisites:
   device. See [here](/docs/en/writing-running-appium/web/chromedriver.md) for more
   information and details about compatibility.
 
-Then, use [desired capabilties](/docs/en/writing-running-appium/caps.md) like
+Then, use [desired capabilities](/docs/en/writing-running-appium/caps.md) like
 these to run your test in Chrome:
 
 ```javascript
